@@ -1,0 +1,92 @@
+body {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.personal_box {
+    width: 340px;
+    height: 520px;
+    padding-top: 2rem;
+    padding-bottom: .8rem;
+    
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+   gap: .5rem;
+    }
+
+    #photo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+
+    h1 {
+        font-size: 20px;
+        font-weight: 600;
+        color: hsl(0, 0%, 100%);
+    }
+
+
+    h2 {
+        font-size: 12px;
+        font-weight: 400;
+        color: hsl(75, 94%, 57%);
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 12px;
+        font-weight: 400;
+        color: hsl(0, 0%, 100%);
+    }
+
+   .box{
+    margin: 0;
+    padding: .5rem;
+    box-sizing: border-box;
+   }
+
+    .social_link{
+        width: 270px;
+        height: 40px;
+        border-radius: .5rem;
+        cursor: pointer;
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        
+    }
+    .social_link:hover{
+        width: 270px;
+        height: 40px;
+        border-radius: .5rem;
+        background-color: hsl(75, 94%, 57%); 
+        color: hsl(0, 0%, 20%);
+        
+    }
+  
+    
+    
+    .attribution {
+        margin-top: 2rem;
+        color:hsl(0, 0%, 100%) ;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
